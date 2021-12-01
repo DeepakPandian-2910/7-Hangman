@@ -59,9 +59,6 @@ word_list = ["apple", "banana", "camel", "dog", "elephant"]
 lives = 6
 chosen_word = random.choice(word_list)
 print("Welcome to Hangman!!!")
-#test word 
-print(f"solution is {chosen_word}")
-###
 display = []
 for letter in chosen_word:
     display.append("_")
